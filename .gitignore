@@ -25,15 +25,15 @@ npm-debug.log*
 Thumbs.db
 
 # CodeIgniter / PHP
-writable/logs/
-writable/session/
-writable/cache/
-writable/debugbar/
-vendor/
+api/customer/writable/logs/
+api/customer/writable/session/
+api/customer/writable/cache/
+api/customer/writable/debugbar/
+api/customer/vendor/
 # Ignore Apache Rewrite Rules
-public/.htaccess
-.htaccess
+api/customer/public/.htaccess
+api/customer/.htaccess
 
 # Ignore Database and Environment Configs
-app/Config/Database.php
-.env
+api/customer/app/Config/Database.php
+api/customer/.env
