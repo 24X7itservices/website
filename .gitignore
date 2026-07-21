@@ -1,0 +1,39 @@
+# Node & Angular
+node_modules/
+.angular/
+dist/
+/bin/
+/obj/
+
+# Environment / Secret files
+.env
+src/environments/environment.prod.ts
+src/environments/environment.ts
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# CodeIgniter / PHP
+writable/logs/
+writable/session/
+writable/cache/
+writable/debugbar/
+vendor/
+# Ignore Apache Rewrite Rules
+public/.htaccess
+.htaccess
+
+# Ignore Database and Environment Configs
+app/Config/Database.php
+.env
