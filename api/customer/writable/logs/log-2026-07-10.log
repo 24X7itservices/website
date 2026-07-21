@@ -1,0 +1,11 @@
+CRITICAL - 2026-07-10 20:37:49 --> ErrorException: Undefined variable $binaryKey
+[Method: POST, Route: api/customer/login]
+in APPPATH\Libraries\CryptoService.php on line 20.
+ 1 APPPATH\Libraries\CryptoService.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $binaryKey', 'C:\\xampp\\htdocs\\24X7customeradmin\\app\\Libraries\\CryptoService.php', 20)
+ 2 APPPATH\Controllers\CustomerPanel\Auth.php(71): App\Libraries\CryptoService->encrypt('{"id":"16","name":"Customer","email":"customer@24x7itservices.com","phone":"0000000000","password":"$2b$12$u.tOfVzwOskDXYjIFyY6..wRxBpcfqWYKB\\/NC6exk1Wj6\\/kyB0yQW","role":"customer","address":"NA","last_seen_at":null,"created_at":"2026-07-10 22:42:42.691954","is_active":"t"}')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CustomerPanel\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerPanel\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(73): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
