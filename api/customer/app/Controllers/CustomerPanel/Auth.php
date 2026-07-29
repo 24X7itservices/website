@@ -42,7 +42,7 @@ class Auth extends BaseController
         $user = $userModel->getUserByEmail($email);
         
         if($user){
-            if (($user['role'] === "admin") && password_verify($password, $user['password'])) {
+            if (($user['role'] === "client") && password_verify($password, $user['password'])) {
                 
                 $sessionData = [
                     'user_id'   => $user['id'],

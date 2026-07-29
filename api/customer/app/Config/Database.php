@@ -24,39 +24,39 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
-    // public array $default = [
-    //     'DSN'          => '',
-    //     'hostname'     => 'localhost',
-    //     'username'     => '',
-    //     'password'     => '',
-    //     'database'     => '',
-    //     'DBDriver'     => 'MySQLi',
-    //     'DBPrefix'     => '',
-    //     'pConnect'     => false,
-    //     'DBDebug'      => true,
-    //     'charset'      => 'utf8mb4',
-    //     'DBCollat'     => 'utf8mb4_general_ci',
-    //     'swapPre'      => '',
-    //     'encrypt'      => false,
-    //     'compress'     => false,
-    //     'strictOn'     => false,
-    //     'failover'     => [],
-    //     'port'         => 3306,
-    //     'numberNative' => false,
-    //     'foundRows'    => false,
-    //     'dateFormat'   => [
-    //         'date'     => 'Y-m-d',
-    //         'datetime' => 'Y-m-d H:i:s',
-    //         'time'     => 'H:i:s',
-    //     ],
-    // ];
+    public array $default = [
+        'DSN'          => '',
+        'hostname'     => '118.139.162.62',
+        'username'     => '24X7itservices',
+        'password'     => 'setMa3bicLZI#5VF',
+        'database'     => '24X7itservices',
+        'DBDriver'     => 'MySQLi',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => true,
+        'charset'      => 'utf8mb4',
+        'DBCollat'     => 'utf8mb4_general_ci',
+        'swapPre'      => '',
+        'encrypt'      => false,
+        'compress'     => false,
+        'strictOn'     => false,
+        'failover'     => [],
+        'port'         => 3306,
+        'numberNative' => false,
+        'foundRows'    => false,
+        'dateFormat'   => [
+            'date'     => 'Y-m-d',
+            'datetime' => 'Y-m-d H:i:s',
+            'time'     => 'H:i:s',
+        ],
+    ];
 
 
 //     public array $default = [
 //     'DSN'          => '',
 //     'hostname'     => 'localhost',
 //     'username'     => 'postgres',
-//     'password'     => 'Abhi99sek@ankita',
+//     'password'     => '',
 //     'database'     => '24X7itservices',
 //     'DBDriver'     => 'Postgre', // Critical: Must be 'Postgre'
 //     'DBPrefix'     => '',
@@ -77,32 +77,6 @@ class Database extends Config
 //         'datetime' => 'Y-m-d H:i:s',
 //     ],
 // ];
-
-    public array $default = [
-    'DSN'          => '',
-    'hostname'     => 'localhost',
-    'username'     => '24X7itservices',
-    'password'     => 'setMa3bicLZI#5VF',
-    'database'     => '24X7itservices',
-    'DBDriver'     => 'Postgre', // Critical: Must be 'Postgre'
-    'DBPrefix'     => '',
-    'pConnect'     => false,
-    'DBDebug'      => true,
-    'charset'      => 'utf8',
-    'DBCollat'     => 'utf8_general_ci',
-    'swapPre'      => '',
-    'encrypt'      => false,
-    'compress'     => false,
-    'strictOn'     => false,
-    'failover'     => [],
-    'port'         => 5432, // Default PostgreSQL port
-    'numberNative' => false,
-    'dateFormat'   => [
-        'date'     => 'Y-m-d',
-        'time'     => 'H:i:s',
-        'datetime' => 'Y-m-d H:i:s',
-    ],
-];
 
 
 
